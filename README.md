@@ -1,2 +1,0 @@
-# soundshockaudio
-Cloud stack deployment
