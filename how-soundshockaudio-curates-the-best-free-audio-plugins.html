@@ -1079,6 +1079,80 @@
 }
 </script>
   
+
+  <style id="cloud-stack-footer-normalizer">
+    .site-footer .footer-links,
+    .site-footer .footer-links-list,
+    .site-footer .footer-nav-links,
+    .c-footer .c-footer-list,
+    .site-footer .cloud-stack-resource-links,
+    .c-footer .cloud-stack-resource-links {
+      columns: unset !important;
+      column-count: 1 !important;
+      column-gap: 0 !important;
+      display: grid !important;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: .55rem 1.25rem !important;
+      max-width: 100%;
+      list-style: none !important;
+      padding-left: 0 !important;
+      margin-left: 0 !important;
+    }
+    .site-footer .footer-links li,
+    .site-footer .footer-links-list li,
+    .site-footer .footer-nav-links li,
+    .c-footer .c-footer-list li,
+    .cloud-stack-resource-links li {
+      break-inside: avoid;
+      margin: 0 !important;
+      max-width: 100%;
+    }
+    .site-footer a,
+    .c-footer a {
+      color: rgba(255,255,255,.76) !important;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+      word-break: normal;
+      line-height: 1.65;
+    }
+    .site-footer a:hover,
+    .c-footer a:hover {
+      color: rgba(255,255,255,.98) !important;
+    }
+    .site-footer .footer-heading,
+    .site-footer .cloud-stack-resources-heading,
+    .c-footer .c-footer-heading,
+    .c-footer .cloud-stack-resources-heading {
+      color: rgba(255,255,255,.88) !important;
+    }
+    .site-footer .cloud-stack-resources,
+    .c-footer .cloud-stack-resources {
+      grid-column: 1 / -1;
+      width: 100%;
+      max-width: 100%;
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255,255,255,.12);
+    }
+    .site-footer .cloud-stack-resources-heading,
+    .c-footer .cloud-stack-resources-heading {
+      margin: 0 0 1rem;
+      font-size: .75rem;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      opacity: .9;
+    }
+    @media (max-width: 720px) {
+      .site-footer .footer-links,
+      .site-footer .footer-links-list,
+      .site-footer .footer-nav-links,
+      .c-footer .c-footer-list,
+      .site-footer .cloud-stack-resource-links,
+      .c-footer .cloud-stack-resource-links {
+        grid-template-columns: 1fr !important;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -1300,13 +1374,7 @@
             <li><a href="sitemap.html" rel="nofollow">All Categories</a></li>
             <li><a href="sitemap.html" rel="nofollow">Sitemap</a></li>
           </ul>
-          <div class="footer-heading" style="margin-top:2rem">Resources</div>
-          <ul class="footer-links-list" style="columns:3;column-gap:1.5rem;list-style:none;padding:0;margin:0">
-            <li><a href="http://soundshockaudio.s3-website-us-east-1.amazonaws.com/" title="SoundShockAudio Consumer Guide">SoundShockAudio Consumer Guide</a></li>
-            <li><a href="https://storage.googleapis.com/soundshockaudio/" title="SoundShockAudio Reviews">SoundShockAudio Reviews</a></li>
-            <li><a href="https://pub-da1c3ed6ec29417592d1af62596588c1.r2.dev/" title="SoundShockAudio">SoundShockAudio</a></li>
-            <li><a href="https://sitepublish.github.io/soundshockaudio/" title="SoundShockAudio Analysis">SoundShockAudio Analysis</a></li>
-          </ul>
+          
         </div>
         <div>
           <div class="footer-heading">Visit Us</div>
@@ -1314,22 +1382,22 @@
         </div>
       </div>
       <!-- cross-links-start -->
-        <div>
-          <div class="footer-heading" style="margin-top:1.5rem">Resources</div>
-          <ul class="footer-links" style="columns:3;column-gap:1.5rem;list-style:none;padding:0;margin:0">
-            <li><a href="http://soundshockaudio.s3-website-us-east-1.amazonaws.com/" title="SoundShockAudio Independent Reviews">SoundShockAudio Independent Reviews</a></li>
-            <li><a href="https://storage.googleapis.com/soundshockaudio/" title="Visit SoundShockAudio">Visit SoundShockAudio</a></li>
-            <li><a href="https://pub-da1c3ed6ec29417592d1af62596588c1.r2.dev/" title="SoundShockAudio Expert Reviews">SoundShockAudio Expert Reviews</a></li>
-            <li><a href="https://soundshockaudio.netlify.app/" title="SoundShockAudio Buyer Guide">SoundShockAudio Buyer Guide</a></li>
-            <li><a href="https://soundshockaudio-sitepublishs-projects.vercel.app" title="Reviews by SoundShockAudio">Reviews by SoundShockAudio</a></li>
-            <li><a href="https://soundshockaudio-15eb5c.gitlab.io/" title="SoundShockAudio Consumer Guide">SoundShockAudio Consumer Guide</a></li>
-            <li><a href="https://soundshockaudio.pages.dev/" title="SoundShockAudio Comparisons">SoundShockAudio Comparisons</a></li>
-            <li><a href="https://soundshockaudio.surge.sh" title="SoundShockAudio Review Hub">SoundShockAudio Review Hub</a></li>
-            <li><a href="https://drako003-soundshockaudio.static.hf.space" title="SoundShockAudio Analysis">SoundShockAudio Analysis</a></li>
-            <li><a href="https://sitepublisher.codeberg.page/soundshockaudio/" title="SoundShockAudio Product Guide">SoundShockAudio Product Guide</a></li>
-            <li><a href="https://soundshockaudio-render.onrender.com" title="SoundShockAudio Tested Products">SoundShockAudio Tested Products</a></li>
-            <li><a href="https://soundshockaudio-076183bb.web.app/" title="SoundShockAudio Product Reviews">SoundShockAudio Product Reviews</a></li>
-            <li><a href="https://sitepublisher.bitbucket.io/ssa/" title="SoundShockAudio Reviews">SoundShockAudio Reviews</a></li>
+        <div class="cloud-stack-resources">
+          <div class="cloud-stack-resources-heading">Resources</div>
+          <ul class="cloud-stack-resource-links">
+            <li><a href="http://soundshockaudio.s3-website-us-east-1.amazonaws.com/" title="SoundShockAudio Product Testing" class="cloud-stack-resource-link">SoundShockAudio Product Testing</a></li>
+            <li><a href="https://storage.googleapis.com/soundshockaudio/index.html" title="SoundShockAudio Analysis" class="cloud-stack-resource-link">SoundShockAudio Analysis</a></li>
+            <li><a href="https://pub-da1c3ed6ec29417592d1af62596588c1.r2.dev/index.html" title="SoundShockAudio Independent Reviews" class="cloud-stack-resource-link">SoundShockAudio Independent Reviews</a></li>
+            <li><a href="https://soundshockaudio.netlify.app/" title="SoundShockAudio Buyer Guide" class="cloud-stack-resource-link">SoundShockAudio Buyer Guide</a></li>
+            <li><a href="https://soundshockaudio-sitepublishs-projects.vercel.app" title="SoundShockAudio" class="cloud-stack-resource-link">SoundShockAudio</a></li>
+            <li><a href="https://soundshockaudio-15eb5c.gitlab.io/" title="SoundShockAudio Review Hub" class="cloud-stack-resource-link">SoundShockAudio Review Hub</a></li>
+            <li><a href="https://soundshockaudio-ckh.pages.dev/" title="SoundShockAudio Review Site" class="cloud-stack-resource-link">SoundShockAudio Review Site</a></li>
+            <li><a href="https://soundshockaudio.surge.sh" title="Visit SoundShockAudio" class="cloud-stack-resource-link">Visit SoundShockAudio</a></li>
+            <li><a href="https://drako003-soundshockaudio.static.hf.space" title="SoundShockAudio Reviews" class="cloud-stack-resource-link">SoundShockAudio Reviews</a></li>
+            <li><a href="https://sitepublisher.codeberg.page/soundshockaudio/" title="SoundShockAudio Comparisons" class="cloud-stack-resource-link">SoundShockAudio Comparisons</a></li>
+            <li><a href="https://soundshockaudio-render.onrender.com" title="SoundShockAudio Product Ratings" class="cloud-stack-resource-link">SoundShockAudio Product Ratings</a></li>
+            <li><a href="https://soundshockaudio-076183bb.web.app/" title="SoundShockAudio Ratings" class="cloud-stack-resource-link">SoundShockAudio Ratings</a></li>
+            <li><a href="https://sitepublisher.bitbucket.io/ssa/" title="SoundShockAudio Product Guide" class="cloud-stack-resource-link">SoundShockAudio Product Guide</a></li>
           </ul>
         </div>
         <!-- cross-links-end -->
